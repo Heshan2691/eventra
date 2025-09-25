@@ -1,0 +1,75 @@
+# Node.js / Next.js (Frontend)
+node_modules/
+.next/
+out/
+build/
+dist/
+npm-debug.log
+yarn-error.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ASP.NET Core (Backend)
+bin/
+obj/
+*.csproj.user
+*.suo
+*.user
+*.sln.docstates
+appsettings.Development.json
+wwwroot/
+
+# Docker
+docker-compose.override.yml
+*.log
+*.pid
+
+# Database
+*.sql
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build and test artifacts
+coverage/
+test-results/
+*.trx
+*.coverage
+*.cache
+
+# Sensitive files
+secrets.json
+*.key
+*.pem
+*.pfx
+*.cert
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Dependency lock files (optional, include if you want to commit them)
+# package-lock.json
+# NuGet.Config
+
+# Miscellaneous
+temp/
+tmp/
+*.bak
+*.backup
