@@ -73,3 +73,10 @@ temp/
 tmp/
 *.bak
 *.backup
+
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
